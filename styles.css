@@ -1,16 +1,15 @@
 * {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Catalina', glyphic-serif;
 }
 
 body {
-  background-color: #3b4071;
-  background: linear-gradient(45deg,  #362256, #3b4071);
+  background-color: #E72115;
   width: 80%;
   margin: auto;
 }
 
 h1 {
-  color: #d2d5e8;
+  color: #E7C715;
   text-align: center;
   padding: 15px;
   font-size: 200%;
@@ -18,7 +17,7 @@ h1 {
 
 form {
   margin-bottom: 20px;
-  background-color: #656794;
+  background-color: #E7C715;
   margin: auto;
   display: flex;
   padding: 10px;
