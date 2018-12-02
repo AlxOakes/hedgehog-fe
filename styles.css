@@ -9,21 +9,21 @@ body {
 }
 
 h1 {
-  color: #E7C715;
+  color: #000000;
   text-align: center;
   padding: 15px;
-  font-size: 200%;
+  font-size: 300%;
 }
 
 form {
   margin-bottom: 20px;
-  background-color: #E7C715;
+  background-color: #000000;
   margin: auto;
   display: flex;
-  padding: 10px;
+  padding: 30px;
   flex-direction: row;
   justify-content: space-between;
-  width: 690px;
+  width: 1000px;
 }
 
 p {
@@ -55,7 +55,7 @@ p {
 }
 
 .submit-btn {
-  background-color: #3b4071;
+  background-color: #E72115;
   color: #fff;
   transition: all 0.5s;
   text-transform: uppercase;
@@ -68,37 +68,37 @@ p {
   cursor: pointer;
 }
 
-#hedgie-images {
+#HyunA-images {
   margin: auto;
   width: 700px;
   display: grid;
   grid-template-columns: 350px 350px;
   grid-template-rows: 350px 350px;
-  grid-template-areas: "hedgie1 hedgie2" "hedgie3 hedgie4";
-  background-color: #EDF4F1;
-  padding: 10px;
+  grid-template-areas: "HyunA1 HyunA2" "HyunA3 HyunA4";
+  background-color: #000000;
+  padding: 20px;
   margin-top: 25px;
   margin-bottom: 40px;
 }
 
-#hedgie1, #hedgie2, #hedgie3, #hedgie4 {
+#HyunA1, #HyunA2, #HyunA3, #HyunA4 {
   width: 350px;
   height: 350px;
   object-fit: cover;
 }
 
-#hedgie1 {
-  grid-area: hedgie1;
+#HyunA1 {
+  grid-area: HyunA1;
 }
 
-#hedgie2 {
-  grid-area: hedgie2;
+#HyunA2 {
+  grid-area: HyunA2;
 }
 
-#hedgie3 {
-  grid-area: hedgie3;
+#HyunA3 {
+  grid-area: HyunA3;
 }
 
-#hedgie4 {
-  grid-area: hedgie4;
+#HyunA4 {
+  grid-area: HyunA4;
 }
